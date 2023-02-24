@@ -1,0 +1,24 @@
+-[X] A grid that have nxm spaces
+	-[X] Define the size
+		-[X] r the number of rows
+		-[X] c the number of columns
+	-[X] An array of states
+		-[X] The board give a state to each cell
+	-[X] An array of cells
+	-[X] Display each cell
+	-[ ] A set of rules
+		-[ ] A white cell change to black
+			-[ ] the ant turn right 90 deg and move forward one unit
+		-[ ] A black cell change to red
+			-[ ] the ant turn left 90 deg and move forward one unit
+		-[ ] a red cell change to white
+			-[ ] the ant, do not turn and move forward one unit
+-[ ] A cell object that change their color in accordance to the movements of the ant
+	-[ ] Position
+		-[ ] h the row position
+		-[ ] k the column position
+	-[ ] State (white or black)
+-[ ] An Ant
+	-[ ] Direction (W, E, S, N)
+	-[ ] Position
+-[ ] A gui (grafic user interface)
