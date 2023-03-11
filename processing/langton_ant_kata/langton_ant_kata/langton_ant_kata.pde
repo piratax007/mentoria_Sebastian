@@ -3,6 +3,7 @@ ant hormiga;
 
 void setup(){
   size(800, 800);
+  frameRate(1);
   
   board = make_board(50, 50);
   hormiga = new_ant(board);
@@ -11,7 +12,6 @@ void setup(){
 void draw(){
   board.displayGrid();
   hormiga.display();
-  hormiga.move();
 }
 
 grid make_board(int rows, int columns) {
