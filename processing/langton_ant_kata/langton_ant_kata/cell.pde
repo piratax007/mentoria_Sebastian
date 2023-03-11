@@ -20,12 +20,12 @@ class cell {
       case 'R':
         fill(255, 0, 0);
         break;
-       case 'B':
-         fill(0);
-         break;
-       default:
-         fill(255);
-         break;
+      case 'B':
+        fill(0);
+        break;
+      default:
+        fill(255);
+        break;
     }
     
     rect(horizontalPosition, verticalPosition, cellWidth, cellHeight);
