@@ -14,7 +14,7 @@ class grid{
     
     for (int i = 0; i < rows; i++) {
       for (int j = 0; j < columns; j++) {
-        cells[i][j] = new cell(i*cellWidth, j*cellHeight, cellWidth, cellHeight, states[1]);
+        cells[i][j] = new cell(i*cellWidth, j*cellHeight, cellWidth, cellHeight, states[floor(random(0,3))]);
       }
     }
   }
